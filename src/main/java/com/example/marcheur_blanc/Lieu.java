@@ -19,8 +19,7 @@ public  class Lieu {
 
     @Override
     public String toString() {
-        return "Lieu{" +
-                "nom='" + nom;
+        return "Lieu" + "nom=" + nom;
     }
 
     public void ajouterRue(Rue rue){
